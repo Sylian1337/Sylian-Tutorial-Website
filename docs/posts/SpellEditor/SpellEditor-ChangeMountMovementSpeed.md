@@ -1,8 +1,7 @@
 ---
 title: Spell Editor - Change Mount Movement Speed
 slug: change-mount-movement-speed
-date:
-    created: "2026-05-23"
+date: 2026-05-23
 authors:
   - Sylian
 tags:
