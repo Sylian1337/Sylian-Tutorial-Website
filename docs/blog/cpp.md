@@ -5,7 +5,7 @@ description: Posts about C++ programming
 
 # C++
 
-All posts related to C++ programming and server architecture.
+All posts related to C++ programming and server architecture. 
 
 ## Posts
 
