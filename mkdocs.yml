@@ -1,0 +1,82 @@
+site_name: Sylian YouTube Channel
+site_description: A collection of videos and resources related to programming, technology, and software development.
+
+nav:
+  - Home: index.md
+  - Blog:
+    - Blog Home: blog/index.md
+    - Spell Editor: blog/spell-editor.md
+    - Eluna: blog/eluna.md
+    - C++: blog/cpp.md
+    - Core: blog/core.md
+  - Tags: tags.md
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - navigation.footer
+
+markdown_extensions:
+  - md_in_html
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.keys:
+      separator: +
+      strict: false
+      camel_case: false
+  
+plugins:
+  - search
+  - blog:
+      blog_dir: .
+      categories_allowed:
+        - Spell Editor
+        - Eluna
+        - C++
+        - Core
+      post_url_format: '{slug}'
+      post_excerpt: required
+  - tags:
+      tags_file: tags.md
+
+hooks:
+  - hooks/socialmedia.py
+
+extra:
+  generator: false
+  social:
+    - icon: simple/youtube
+      link: https://www.youtube.com/@DEVSylian
+    - icon: simple/github
+      link: https://github.com/Sylian1337
+    - icon: simple/discord
+      link: https://discord.gg/j2e7qTKSZh
+
+extra_css:
+  - stylesheets/extra.css
+
+copyright: >
+  Copyright &copy; 2026 <strong>Sylian (Morten)</strong> &bull; All rights reserved.
+  <br>
+  <small style="opacity: 0.5; font-style: italic;">
+    Website not affiliated with Blizzard Entertainment.
+  </small>
