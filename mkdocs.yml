@@ -1,5 +1,6 @@
-site_name: Sylian YouTube Channel
+site_name: Sylian YouTube Channel Tutorials
 site_description: A collection of videos and resources related to programming, technology, and software development.
+site_url: https://sylian1337.github.io/Sylian-Tutorial-Website/ #Update this later when getting a custom domain
 
 nav:
   - Home: index.md
