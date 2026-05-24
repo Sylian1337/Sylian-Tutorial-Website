@@ -13,7 +13,7 @@ Click on a category card to view all posts in that topic, or browse all posts be
 
 <div class="grid cards" markdown>
 
-- :fontawesome-solid-wand-magic-sparkles: **[Spell Editor](spell-editor.md)**
+- :fontawesome-solid-wand-magic-sparkles: **[Spell Editor](category/spell-editor.md)**
   
     Learn how to create and modify spells using the Spell Editor.
 
@@ -31,10 +31,4 @@ Click on a category card to view all posts in that topic, or browse all posts be
 
 </div>
 
-## All Posts
-
-### Spell Editor
-
-- **[Spell Editor - Change Mount Movement Speed](../posts/SpellEditor/SpellEditor-ChangeMountMovementSpeed.md)** 
-  - *May 23, 2026* • By Sylian
-  - Learn how to adjust mount movement speed in the Spell Editor
+## Recent Posts

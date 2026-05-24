@@ -4,6 +4,8 @@ slug: change-mount-movement-speed
 date: 2026-05-23
 authors:
   - Sylian
+categories:           # ← add this
+  - Spell Editor
 tags:
   - Spell-Editor
 ---
